@@ -1,0 +1,24 @@
+/*movil*/
+@media screen and (max-width: 480px) {
+    body{
+        background-color: #f09af0;
+    
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*tablet*/
+
+@media screen and (min-width:481px) and (max-width:960px) {
+    body{
+        background-color: rgba(214, 214, 62, 0.333)
+    }    
+}
+    /*desktap*/
+@media screen and (min-width:961px) {
+    body{
+        background-color: rgb(39, 233, 39);
+    }
+    
